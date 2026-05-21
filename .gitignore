@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+build/
+out/
+target/
+
+# Caches
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.turbo/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# OS and tool trash
+Thumbs.db
+ehthumbs.db
+Desktop.ini
